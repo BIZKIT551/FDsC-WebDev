@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Login/Signup</title>
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div>
+            <a href="index.html"><img src="resources/logo.png" id="logo"></a>
+            <h1 id="nav-background"><img src="resources/menu_bg.png" alt="nav-background" width="100%"></h1>
+            <nav id="menu">
+                <ul>
+                    <li style="margin-left: 20%"><a href="index.html">Home</a></li>
+                    <li><a href="library.html">Library</a></li>
+                    <li><a href="site-map.html">Site Map</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+					<li style="margin-left: 20%;"><a id="on" href="account.html">Login/Sign up</a></li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="reg">
+        <form id="login">
+            <h1 id="login-label">Login or Sign up</h1>
+                <input id="username" type="text" placeholder="Username" autofocus required>   
+                <input id="password" type="password" placeholder="Password" required>
+            <fieldset id="actions">
+                <input type="submit" id="submit" value="Log in">
+                <a href="">Forgot your password?</a>
+                <a href="">Sign up</a>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
